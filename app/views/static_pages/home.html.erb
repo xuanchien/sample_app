@@ -1,8 +1,11 @@
 <% provide(:title, 'Home') %>
-<h1>Home</h1>
-<p>
-	This is the home page for the <a href="http://homekoder.com">Home Koder</a>
-	And it is a part of Sample App.
-	Please help me get out of this.
-</p>
-
+<div class="center hero-unit">
+	<h1>Welcome to the Sample App</h1>
+	<p>
+		This is the home page for the <a href="http://homekoder.com">Home Koder</a>
+		And it is a part of Sample App.
+		Please help me get out of this.
+	</p>
+<%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+</div>
+<%= link_to image_tag("rails.png", alt: "Rails") %>
